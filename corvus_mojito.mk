@@ -14,11 +14,12 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some common Corvus stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_GAPPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED  := true 
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_mojito
+PRODUCT_NAME := corvus_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
