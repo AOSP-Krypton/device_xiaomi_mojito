@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The CORVUS Project
+# Copyright (C) 2021 The Krypton Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,15 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common Corvus stuff
+# Inherit some common Krypton stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED  := true 
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+$(call inherit-product, vendor/krypton/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := corvus_mojito
+PRODUCT_NAME := krypton_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10

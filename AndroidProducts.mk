@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_mojito.mk
+    $(LOCAL_DIR)/krypton_mojito.mk
+
+COMMON_LUNCH_CHOICES := \
+    krypton_mojito-user \
+    krypton_mojito-userdebug \
+    krypton_mojito-eng
