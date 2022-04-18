@@ -1,0 +1,45 @@
+[
+   {
+   "remote"       : "github",
+   "repository"   : "AOSP-Krypton/device_xiaomi_sm6150-common",
+   "target_path"  : "device/xiaomi/sm6150-common",
+   "branch"       : "twelve"
+   },
+   {
+   "remote"       : "github",
+   "repository"   : "Neternels/android_kernel_xiaomi_mojito",
+   "target_path"  : "kernel/xiaomi/mojito",
+   "branch"       : "staging-test",
+   "clone-depth"  : "1"
+   },
+  {
+    "remote"      : "github",
+    "repository"  : "StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf",
+    "target_path" : "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch"      : "12.0.0"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi",
+    "target_path" : "prebuilts/gcc/linux-x86/arm/arm-eabi",
+    "branch"      : "12.0.0"
+  },
+   {
+   "remote"       :"github",
+   "repository"   :"PixelExperience-Devices/device_xiaomi_sm6150-extras",
+   "target_path"  :"device/xiaomi/sm6150-extras",
+   "branch"       : "twelve"
+   },
+   {
+   "remote"       :"github",
+   "repository"   :"BulletFlux/android_vendor_xiaomi_mojito",
+   "target_path"  :"vendor/xiaomi/mojito",
+   "branch"       : "12"
+   },
+   {
+   "remote"       :"github",
+   "repository"   :"BulletFlux/android_vendor_xiaomi_sm6150-common",
+   "target_path"  :"vendor/xiaomi/sm6150-common",
+   "branch"       : "12"
+   }
+]
