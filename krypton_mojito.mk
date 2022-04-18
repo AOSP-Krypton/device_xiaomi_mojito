@@ -17,6 +17,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED  := true 
 $(call inherit-product, vendor/krypton/config/common_full_phone.mk)
 
+# KOSP Flags
+OFFICIAL_BUILD := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := krypton_mojito
 PRODUCT_DEVICE := mojito
